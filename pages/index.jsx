@@ -13,18 +13,19 @@ import Galerie from "@/components/galerie/Galerie";
 import Testimonials from "@/components/testimonials/Testimonials";
 import GaleryStyle from "@/components/galerie/GaleryStyle";
 const inter = Inter({ subsets: ["latin"] });
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 export default function Home() {
   return (
     <>
       <HeroSection />
-      <Galerie />
-      <Features2 />
-      <GaleryStyle/>
-       <Testimonials />
-      <Pricing />
-      <Faq />
-      <Cta />
+      {/* <Galerie /> */}
+      {/* <Features2 /> */}
+      {/* <GaleryStyle/> */}
+       {/* <Testimonials /> */}
+      {/* <Pricing /> */}
+      {/* <Faq /> */}
+      {/* <Cta /> */}
       <Footer />
     </>
   );

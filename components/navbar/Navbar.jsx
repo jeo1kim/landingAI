@@ -3,11 +3,11 @@ import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 const navigation = [
-  { name: "Fonctionnement", href: "#" },
-  { name: "Aperçus", href: "#" },
-  { name: "Apparences", href: "#" },
-  { name: "Tarifications", href: "#" },
-  { name: "Blog", href: "#" },
+  // { name: "Fonctionnement", href: "#" },
+  // { name: "Aperçus", href: "#" },
+  // { name: "Apparences", href: "#" },
+  // { name: "Tarifications", href: "#" },
+  // { name: "Blog", href: "#" },
 ];
 
 export default function Navbar() {
@@ -40,7 +40,7 @@ export default function Navbar() {
             </a>
           ))}
         </div>
-        <div className="flex flex-1 items-center justify-end gap-x-6">
+        {/* <div className="flex flex-1 items-center justify-end gap-x-6">
           <a
             href="#"
             className="hidden lg:block lg:text-sm lg:font-semibold lg:leading-6 lg:text-white"
@@ -53,7 +53,7 @@ export default function Navbar() {
           >
             Inscription
           </a>
-        </div>
+        </div> */}
         <div className="flex lg:hidden">
           <button
             type="button"

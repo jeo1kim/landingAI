@@ -20,9 +20,9 @@ const navigation = {
       { name: 'Partners', href: '#' },
     ],
     legal: [
-      { name: 'Claim', href: '#' },
-      { name: 'Privacy', href: '#' },
-      { name: 'Terms', href: '#' },
+      { name: 'About', href: '/' },
+      { name: 'Privacy', href: "https://euiwonkim11.wixsite.com/chat-ai/privacy" },
+      { name: 'Terms', href: "https://euiwonkim11.wixsite.com/chat-ai/terms" },
     ],
     social: [
       {
@@ -99,7 +99,7 @@ const navigation = {
           <div className="xl:grid xl:grid-cols-3 xl:gap-8">
             <div className="grid grid-cols-2 gap-8 xl:col-span-2">
               <div className="md:grid md:grid-cols-2 md:gap-8">
-                <div>
+                {/* <div>
                   <h3 className="text-sm font-semibold leading-6 text-white">Solutions</h3>
                   <ul role="list" className="mt-6 space-y-4">
                     {navigation.solutions.map((item) => (
@@ -136,7 +136,7 @@ const navigation = {
                       </li>
                     ))}
                   </ul>
-                </div>
+                </div> */}
                 <div className="mt-10 md:mt-0">
                   <h3 className="text-sm font-semibold leading-6 text-white">Legal</h3>
                   <ul role="list" className="mt-6 space-y-4">
@@ -152,11 +152,17 @@ const navigation = {
               </div>
             </div>
             <div className="mt-10 xl:mt-0">
-              <h3 className="text-sm font-semibold leading-6 text-white">Subscribe to our newsletter</h3>
+              <h3 className="text-sm font-semibold leading-6 text-white">Contact us</h3>
               <p className="mt-2 text-sm leading-6 text-gray-300">
-                The latest news, articles, and resources, sent to your inbox weekly.
+                wonmarketingllc@gmail.com
               </p>
-              <form className="mt-6 sm:flex sm:max-w-md">
+              <p className="mt-2 text-sm leading-6 text-gray-300">
+                Discord
+              </p>
+              <p className="mt-2 text-sm leading-6 text-gray-300">
+                Twitter
+              </p>
+              {/* <form className="mt-6 sm:flex sm:max-w-md">
                 <label htmlFor="email-address" className="sr-only">
                   Email address
                 </label>
@@ -174,10 +180,10 @@ const navigation = {
                     type="submit"
                     className="flex w-full items-center justify-center rounded-md bg-indigo-500 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
                   >
-                    Subscribe
+                    Contact Us
                   </button>
                 </div>
-              </form>
+              </form> */}
             </div>
           </div>
           <div className="mt-16 border-t border-white/10 pt-8 sm:mt-20 md:flex md:items-center md:justify-between lg:mt-24">
@@ -185,12 +191,12 @@ const navigation = {
               {navigation.social.map((item) => (
                 <a key={item.name} href={item.href} className="text-gray-500 hover:text-gray-400">
                   <span className="sr-only">{item.name}</span>
-                  <item.icon className="h-6 w-6" aria-hidden="true" />
+                  {/* <item.icon className="h-6 w-6" aria-hidden="true" /> */}
                 </a>
               ))}
             </div>
             <p className="mt-8 text-xs leading-5 text-gray-400 md:order-1 md:mt-0">
-              &copy; 2020 Your Company, Inc. All rights reserved.
+              &copy; 2023 Sharepeace, LLC. All rights reserved.
             </p>
           </div>
         </div>
